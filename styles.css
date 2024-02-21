@@ -30,7 +30,7 @@
 /* this part will style the images */
 i{
     /* this will create a border around the icon */
-    border: 1px solid white;
+    border: 8px solid rgb(88, 46, 122);
     
 
     /* this will provide space around the icon */
@@ -39,8 +39,10 @@ i{
     
     /* this will create a circle around the icon */
     border-radius: 50%;
-    
+
 }
+    
+
 
 .gallery{
     /* this will provide space around the images */
@@ -49,19 +51,27 @@ i{
 
     /* this will wrap the images on the next line */
     flex-wrap: wrap;
-
-    
-    
-
+   
 }
+
+    
+    
+
+
 
 .galleryItem{
     /* make sure the images are the same size; */
     
     /* make sure there is space between the images you can use margin or flex */
     /* give the images a border color */
-    border: 4px rgb(118, 111, 182);
+    border: 8px solid rgb(118, 111, 182);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    flex-direction: row;
 }
+   
+
 
 
 
@@ -74,5 +84,14 @@ i{
 
     /* lets give it some margin to give it some room to breath */
     margin-top: 20px;
+    border: 8px rgb(118, 111, 182);
+}
+
    
+
+
+img{
+    width: 400px; 
+    height: 400px;
+    border: 8px rgb(118, 111, 182);
 }
